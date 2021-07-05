@@ -56,18 +56,6 @@ This is repository of sample serenity cucumber based project automated using res
     
   - Serenity HTML report is generated when running the previous commands in target directory - open target/site/serenity/index.html after the execution.
 
-### How to run the test on GIT Lab Pipeline
- GITLAB Pipeline :
-   Pipeline will trigger for every push to master branch
-  - If you want to run suite on demand go to CICD menu in 
-    GitLab click on pipelines then click on Run pipeline button from right above
-  - You need to select from which branch you want to run the test suite in our case we will use master branch
-  - If you directly click on Run Pipeline (will run all test scenarios with @regression tag by default)
-  - If you want to run different tag you can also override the tag from variable; give input variable key as TAGS and input variable value as sanity; and just 
-    click on run pipeline this will execute all smoke scenarios from the project.
-  - Once execution is completed in pipeline report will be available to download in Download artifacts; once downloaded and unzipped on local open `target/site/serenity/index.html` to verify the results 
-
-
 ## Below are instructions how to create new test in this project :-
 BDD requires a feature file to invoke the step definitions:
 Please find below step by step to understand how to implement :
