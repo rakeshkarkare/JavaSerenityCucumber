@@ -1,0 +1,12 @@
+{
+  "Auth_API": {
+      "Auth_test_url": "https://slackapistest.slack.com/",
+      "Team": "SlackApisTest",
+      "Team_id": "T026XPX2B6V",
+      "User_id": "U026G3W5Q13"
+    },
+  "File_API": {
+      "Mimetype": "application/pdf",
+      "User_id": "U026G3W5Q13"
+  }
+}
